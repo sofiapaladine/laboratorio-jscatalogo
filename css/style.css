@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e9eef3;
+  color: #253242;
+}
+header {
+  text-align: center;
+  background: #293e55;
+  color: white;
+  padding: 28px 15px;
+}
+header h1 {
+  margin: 0 0 10px;
+}
+header p {
+  margin: 0;
+}
+main {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px;
+}
+.filme {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px #00000017;
+}
+.filme img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  background: #d6dfe7;
+}
+.conteudo {
+  padding: 18px;
+}
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+}
+h2 {
+  margin: 0;
+  font-size: 21px;
+}
+h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+p {
+  line-height: 1.5;
+}
+.faixa {
+  color: white;
+  padding: 6px 9px;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.verde {
+  background: #258652;
+}
+.amarelo {
+  background: #c88d10;
+}
+.vermelho {
+  background: #bd3434;
+}
+.estrelas {
+  color: #e4a300;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+.opiniao {
+  background: #f1f4f7;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-size: 14px;
+}
